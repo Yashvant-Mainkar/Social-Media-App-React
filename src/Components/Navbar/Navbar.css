@@ -1,0 +1,105 @@
+/* I like this font family */
+/* font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif */
+
+
+.navbar-container {
+    height: 50px;
+    width: 100%;
+    background-color: #1877f2;
+    display: flex;
+    align-items: center;
+    position: sticky;
+    top: 0;
+    z-index: 999;
+}
+
+.navbar-left {
+    flex: 3;
+}
+
+.logo {
+    font-size: 24px;
+    margin-left: 20px;
+    font-weight: bold;
+    color: white;
+    cursor: pointer;
+}
+
+.search-bar {
+    width: 100%;
+    height: 30px;
+    background-color: white;
+    border-radius: 30px;
+    display: flex;
+    align-items: center;
+}
+
+.search-icon {
+    font-size: 20px !important;
+    margin-left: 10px;
+}
+
+.search-input {
+    border: none;
+    width: 70%;
+}
+
+.search-input:focus {
+    outline: none;
+}
+
+.navbar-center {
+    flex: 5;
+}
+
+.navbar-right {
+    flex: 4;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    color: white;
+}
+
+.nav-link {
+    margin-right: 10px;
+    /* font-size: 14px; */
+    cursor: pointer;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.navbar-right-icons {
+    display: flex;
+}
+
+.navbar-item-icons {
+    margin-right: 15px;
+    cursor: pointer;
+    position: relative;
+}
+.navbar-3-icons{
+    height: 25px;
+    width: 25px;
+}
+
+.navbar-icon-batch {
+    width: 13px;
+    height: 13px;
+    background-color: red;
+    border-radius: 50%;
+    color: white;
+    position: absolute;
+    top: -5px;
+    right: -5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 12px;
+}
+
+.navbar-img {
+    width: 32px;
+    height: 32px;
+    border-radius: 50%;
+    object-fit: cover;
+    cursor: pointer;
+}
